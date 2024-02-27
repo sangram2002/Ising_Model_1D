@@ -1,0 +1,31 @@
+
+
+*******************************************************************************
+Wed Feb  8 22:20:12 2023
+
+
+FIT:    data read from 'susceptibility_run01.csv' u 1:2
+        format = x:z
+        x range restricted to [0.00000 : 0.500000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: chi(x)
+	chi(x) = x*(1+tanh(x*J))/(1-tanh(x*J))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   J            
+   0 2.1351402183e+11   0.00e+00  2.02e+06    1.500000e+01
+  12 2.9587662337e+03  -1.07e-02  2.02e-06    5.447426e+00
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 2958.77
+rel. change during last iteration : -1.06839e-07
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 18.1315
+variance of residuals (reduced chisquare) = WSSR/ndf   : 328.752
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+J               = 5.44743          +/- 0.2532       (4.648%)
